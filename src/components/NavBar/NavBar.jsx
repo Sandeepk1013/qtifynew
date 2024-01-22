@@ -9,7 +9,7 @@ const NavBar = () => {
   return (
     <nav className={styles.navbar}>
       <div>
-      <img src={HeaderLogo} alt="headerLogo" className={styles.logo}/>
+        <img src={HeaderLogo} alt="headerLogo" className={styles.logo}/>
       </div>
       
       <Search placeholder="Search an album of your choice" />
