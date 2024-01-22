@@ -1,31 +1,23 @@
-// HeroSection.js
 import React from "react";
 import styles from "./HeroSection.module.css";
 import Headphone from "../../assets/headphone_logo.png";
 
 const HeroSection = () => {
-  return (
-    <div className={styles.container} data-testid="heroSection">
-      <div className={styles.textContainer}>
-        <div className={styles.text}>
-          <div className={styles.firstText} data-testid="firstText">
-            100 Thousand Songs, ad-free
-          </div>
-          <img
-            src={Headphone}
-            alt="Headphone"
-            className={styles.heroImage}
-            data-testid="heroImage"
-            width={50} 
-            height={50} 
-          />
-        </div>
-        <div className={styles.secondText} data-testid="secondText">
-          Over thousands podcast episodes
-        </div>
-      </div>
-    </div>
-  );
+	return (
+		<>
+			<div className={styles.wrapper}>
+				<div className={styles.heroImageWrapper}>
+					<div className={styles.banner}>
+						<h1>100 Thousand Songs, ad free</h1>
+						<h1>Over thousands podcast episodes</h1>
+					</div>
+					<div>
+						<img src={Headphone} alt="Headphone" height="212px" width="212px" />
+					</div>
+				</div>
+			</div>
+		</>
+	);
 };
 
 export default HeroSection;
