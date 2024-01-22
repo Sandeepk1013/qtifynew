@@ -6,7 +6,7 @@ import Headphone from "../../assets/headphone_logo.png";
 const HeroSection = () => {
   return (
     <div className={styles.container} data-testid="heroSection">
-      <div className={styles.textContainer} data-testid="textContainer">
+      <div className={styles.textContainer}>
         <div className={styles.firstText} data-testid="firstText">
           100 Thousand Songs, ad-free
         </div>
