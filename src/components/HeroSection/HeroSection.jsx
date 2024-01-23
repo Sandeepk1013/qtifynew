@@ -2,7 +2,7 @@ import React from "react";
 import styles from "../HeroSection/HeroSection.module.css"
 import Headphone from "../../assets/headphone_logo.png";
 
-function HeroSection(){
+const HeroSection = ()=>{
   return (
     <div className={styles.hero}>
       <div>
