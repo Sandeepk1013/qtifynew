@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../HeroSection/HeroSection.module.css"
+import styles from "./Hero.module.css"
 import Headphone from "../../assets/headphone_logo.png";
 
 const HeroSection = ()=>{
@@ -9,9 +9,9 @@ const HeroSection = ()=>{
         <h1>100 Thousand Songs, ad-free</h1>
         <h1>Over thousand podcast episodes</h1>
       </div>
-      <div>
+      
         <img src ={Headphone} width = {212} alt = "headphones"/>
-      </div>
+      
     </div>
   )
 } 
