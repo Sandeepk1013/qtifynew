@@ -4,8 +4,7 @@ import Search from "../Search/Search";
 import styles from './Navbar.module.css'
 import LogoImage from "../../assets/Logo.png"
 
-
-export default function Navbar(){
+const Navbar = ()=>{
     return(
         <>
             <nav className={styles.navbar}>
@@ -16,3 +15,5 @@ export default function Navbar(){
         </>
     )
 }
+
+export default Navbar;
