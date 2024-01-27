@@ -1,18 +1,16 @@
 import React from "react";
-import styles from "./Search.module.css";
-import { ReactComponent as SearchIcon } from "../../assets/Search_icon.svg";
+import {ReactComponent as SearchIcon} from "../../assets/search-icon.svg"
+import styles from "./Search.module.css"
 
-function Search({ placeholder }) {
+const Search = ({ search }) => {
   return (
-    <>
-      <form className={styles.wrapper}>
-        <input className={styles.search} placeholder={placeholder} />
-        <button className={styles.searchButton} type="submit">
-          <SearchIcon />
-        </button>
-      </form>
-    </>
+    <form className={styles.wrapper}>
+      <input className={styles.search} placeholder={search}></input>
+      <button className={styles.searchButton} type="submit">
+        <SearchIcon />
+      </button>
+    </form>
   );
-}
+};
 
 export default Search;
